@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 #### Clone the project
 
 ```
-git clone git@github.com:lemoissonM/donatio-frontend.git
+git clone git@github.com:lemoissonM/quick-credit-v2.git
 ```
 
 ### Prerequisites
