@@ -1,34 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# donatio-frontend
+
+>  Quick credit is an platform that allow you to manage a loan grant system. From this platform users can create and login to their accounts, request as well as manage their loan applications while admins can manage all type of loan transactions, from accepting or rejecting them, to posting repayment transactions for different loans and also manage all users in the system. 
+
+## Built With
+
+- HTML, CSS. TAILWINDCSS, REACT JS, NEXT JS, JAVASCRIPT & TYPESCRIPT
+
+## Live Demo
+
+[Live Demo Link](https://quick-credit-v2.vercel.app/)
+
+### Demo credentials
+- In order to login as normal user : `email: johndoe@email.com` and `password: 123456`
+- In order to login as admin user : `email: johndoeadmin@email.com` and `password: 123456`
+
+### Note 
+We are not using a database to store application data for now. 
+
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple example steps.
 
-```bash
-npm run dev
-# or
-yarn dev
+#### Clone the project
+
+```
+git clone git@github.com:lemoissonM/donatio-frontend.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for       checking for debugging bad codes before deployment)
+- Git/Github/Git-flow
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Install packages
 
-## Learn More
+- npm install
 
-To learn more about Next.js, take a look at the following resources:
+### Run tests
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- npm run test
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Deployment
+ 
+- Deployed to Vercel
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Authors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+👤 **Author**
+
+- GitHub: [lemoissonM](https://github.com/lemoissonM)
+- Twitter: [LemoissonMetre](https://twitter.com/LemoissonMetre)
+- LinkedIn: [Lemoisson Metre](https://www.linkedin.com/in/lemoisson-metre-aba15712b/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
